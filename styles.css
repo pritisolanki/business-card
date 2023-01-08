@@ -4,17 +4,23 @@
 }
 
 .avatar{
-    width:150px;
+    width:150px;   
+}
+.card:hover{
+    -moz-box-shadow: 0 0 15px #ffd60a;
+    -webkit-box-shadow: 0 0 15px #ffd60a;
+    box-shadow: 0px 0px 15px #ffd60a;
 }
 
 .card{
     width: 400px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 30px auto;
+    padding: 20px 10px;
     display: flex;
     justify-content: space-around;
     text-align: center;
     background: black;
     color: white;
-    border-bottom: 10px solid #ffd60a;
+    border-right: 10px solid #ffd60a;
+    border-radius: 10px;
 }
