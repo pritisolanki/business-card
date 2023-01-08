@@ -1,6 +1,6 @@
 .body{
     margin:20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Patrick Hand', cursive;
 }
 
 .avatar{
@@ -12,6 +12,9 @@
     box-shadow: 0px 0px 15px #ffd60a;
 }
 
+h1,h2,h3{
+margin: 5px 0;
+}
 .card{
     width: 400px;
     margin: 30px auto;
@@ -23,4 +26,6 @@
     color: white;
     border-right: 10px solid #ffd60a;
     border-radius: 10px;
+    font-family: 'Patrick Hand', cursive;
+    height: 150px;
 }
